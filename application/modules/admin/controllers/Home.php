@@ -332,6 +332,25 @@ class Home extends My_Controller {
 		}
 		echo json_encode($returnData); 
 	}
+
+    public function deleteagent(){
+		$returnData=false;
+		$userId=$this->input->post('ids');
+		// $del_Id = $this->input->post('del_Id') ? $this->input->post('del_Id') : "Id";
+		$table=$this->input->post('table');
+
+		if((!empty($userId)) && (!empty($table))){
+
+            $this->db->where('Id', $userId);
+            $this->db->delete('users');
+
+			$returnData = array('isSuccess'=>true);
+		}else{
+			$returnData = array('isSuccess'=>false);
+		}
+		echo json_encode($returnData); 
+	}
+
     /**
     * Sender Details
     *
@@ -610,6 +629,83 @@ class Home extends My_Controller {
             }
           echo json_encode($return);        
     }
+
+
+
+
+
+    public function agent_profile_update(){
+        $user_type = $this->input->post('user_type');
+        $this->form_validation->set_error_delimiters("<p class='inputerror text text-danger error'>", "</p>");
+        $this->form_validation->set_rules('fname', 'First Name', 'required');
+        $this->form_validation->set_rules('lname', 'Last Name', 'required');
+        
+        // $this->form_validation->set_rules('email', 'Email', 'required|valid_email|is_unique[users.Email]' , array('required' => $this->lang->line('email_required'),'valid_email' => $this->lang->line('email_valid'),'is_unique' => $this->lang->line('email_unique')
+			// ));
+			// $this->form_validation->set_rules('mobile', 'Mobile', 'required|min_length[10]|max_length[12]|numeric|is_unique[users.Mobile_No]', array(
+			// 		'required' => $this->lang->line('mobile_required'),
+			// 		'min_length' => $this->lang->line('mobile_min_length'),
+			// 		'max_length' => $this->lang->line('mobile_max_length'),
+			// 		'numeric' => $this->lang->line('mobile_numeric'),
+			// 		'is_unique' => $this->lang->line('mobile_unique')
+			// 	));
+
+            $this->form_validation->set_rules('email', 'Email', 'required');
+            $this->form_validation->set_rules('mobile', 'Mobile', 'required');
+        //    $this->form_validation->set_rules('gender', 'gender','required'); 
+            if ($this->form_validation->run() == FALSE){  
+                        $error= array(
+                              'fname'           =>form_error('fname'),
+                              'lname'           =>form_error('lname'),
+                            //   'age'            =>form_error('age')    
+                           );
+                    $return = array('status'=>false,'message'=>'All fields are mandatory..','data'=>$error);
+            }else{
+                    $updatedata =  array(); 
+                    $updateprofile =array();
+                    $userid                                 = $this->input->post('userid');
+                    $mobile                                 = $this->input->post('mobile');  
+                    $email                                  = $this->input->post('email');  
+                    $address                                = $this->input->post('address');
+                    $updatedata['FirstName']                = $this->input->post('fname');
+                    $updatedata['LastName']                 = $this->input->post('lname');
+                    $updatedata['FullName']                 = $this->input->post('fname').' '.$this->input->post('lname');
+                
+                    
+                    if(!empty($email)){ 
+                        // $wh=array('Email'=>$email); 
+                        // $userdetails= getdatafromtable('users',$where);
+                        // if($userdetails){
+                        //     $return=array('status'=>false,'message'=>'Updated Successfully','data'=>'');
+                        // }
+
+                          $updatedata['Email']                = $email;
+                     }
+
+                    if(!empty($mobile)){ 
+                          $updatedata['Mobile_No']                = $mobile;
+                     }
+                    if(!empty($address)){ 
+                      $updatedata['Address']                = $address;
+                    }
+                    
+                    $where=array('Id'=>$userid );
+                    $profileupdate= $this->dynamic_model->updateRowWhere('users',$where,$updatedata);
+                    // //echo $this->db->last_query();die;
+                    // $wh=array('Id'=>$userid); 
+                    // $userdetails= getdatafromtable('users',$where); 
+                    
+                    //  if(!empty($userdetails)){
+                    //      if(@$userdetails[0]['Is_Email_Verified'] ==1 && $userdetails[0]['Is_Mobile_Verified'] ==1){
+                    //     $updateprofile['Is_Profile_Complete']      = 1;
+                    //      $profileupdate= $this->dynamic_model->updateRowWhere('users',$where,$updateprofile);
+                    //     }
+                    //  }
+                    $return=array('status'=>true,'message'=>'Updated Successfully','data'=>'');  
+                }
+              echo json_encode($return);        
+    }
+
     /**
     * Receiver documents_verified
     *
@@ -1689,9 +1785,6 @@ class Home extends My_Controller {
                 $recordListing[$i][4]= $recordData->Address; 
                 $recordListing[$i][5]= dateFormat($recordData->Creation_Date_Time);
 
-
-                
-
                 $del_Id='Id';
                 $table='users';
 				$field='Is_Active';
@@ -1716,6 +1809,23 @@ class Home extends My_Controller {
 				}
 
                 $recordListing[$i][6]= $actionContent;
+
+                 //blank for edit button
+                $actionContent = '';
+                 $actionContent .='<a href="'.base_url('admin/agent_details/'.base64_encode($recordData->Id)).'" title="Edit" class="btn btn-success btn-sm_eye_box btn-sm"><i class="material-icons material-icons_eye">remove_red_eye</i></a> ';
+                 
+                    // $actionContent .='<a href="'.base_url('admin/agent_delete/'.base64_encode($recordData->Id)).'" title="Delete" class="btn btn-danger btn-sm">Remove</a> ';
+
+
+                    $del_Id='Id';
+                    $table='users';
+                    $field='Is_Active';
+                    $urls = base_url('admin/home/deleteagent');
+                    //  $statuschng ='statusdng'.$recordData->Id;
+					$actionContent .='<a class="btn statusdng0 btn-sm_eye_box btn-sm" href="javascript:void(0);" onclick="deletealert('.$recordData->Id.', \''.$recordData->Is_Active.'\', \''.$urls.'\', \''.$table.'\', \''.$field.'\',\''.$del_Id.'\');" title="Remove"><i class="material-icons">delete_forever</i></a>';
+
+
+                $recordListing[$i][7]= $actionContent;
                 $i++;
                 $srNumber++;
             }

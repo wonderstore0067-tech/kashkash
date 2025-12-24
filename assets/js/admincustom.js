@@ -66,6 +66,45 @@ function deleteData(postid, actionurl, returnurl) {
 
 }
 
+
+ // delete agent
+function deletealert(ids, status, urls, table, field, del_Id) {
+    swal({
+        title: "Do you want to delete this user",
+        type: "warning",
+        showCancelButton: true,
+        cancelButtonText: "Cancel",
+        customClass: 'swal-wide',
+        confirmButtonColor: "#DD6B55",
+        confirmButtonText: "Yes",
+        closeOnConfirm: false,
+    }, function() {
+        swal('Removed', "User Removed Successfully", "success");
+
+        var formData = {
+            'ids': ids,
+            'table': table,
+            'del_Id': del_Id,
+        };
+        $.ajax({
+            type: 'POST',
+            url: urls,
+            dataType: 'json',
+            async: false,
+            data: formData,
+            success: function(data) {
+                if (data.isSuccess == true) {
+                  refreshPge();
+                } else {
+                  $("#ErrorStatus").html('');
+                }
+            },
+        });
+    });
+}
+
+
+
   // update ststus
 function sweetalert(ids, status, urls, table, field, del_Id) {
     swal({

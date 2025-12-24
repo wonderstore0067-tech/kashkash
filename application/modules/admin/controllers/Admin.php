@@ -1061,9 +1061,71 @@ class Admin extends My_Controller {
   }
 
   public function all_agents(){
-        $data['title']='All Agents';
-        $this->admintemplates('agents/allagents',$data);
+    $data['title']='All Agents';
+    $this->admintemplates('agents/allagents',$data);
   }
+
+  public function agent_details($user_id=''){
+       $permission_data=get_permission_detail(self::$admin_id);
+       $find_permission= unserialize($permission_data[0]['Permission']); 
+        if($find_permission['user_manage']==1)
+        {
+            $data['title']='Agent Details';
+            $userid = base64_decode($user_id);
+            $wh=array('Id'=>$userid); 
+            $data['userdata']= getdatafromtable('users',$wh); 
+            $user_role_wh=array('User_Id'=>$userid); 
+            $data['user_role_data']= getdatafromtable('user_in_roles',$user_role_wh); 
+            $wh1=array('User_Id'=>$userid);
+            $data['document_data']= getdatafromtable('users_documents',$wh1); 
+            $this->admintemplates('agents/agent_details',$data);
+        }else{
+            redirect('admin');
+        } 
+    }
+
+
+    // public function agent_delete($user_id = '')
+    // {
+    //     $permission_data = get_permission_detail(self::$admin_id);
+    //     $find_permission = unserialize($permission_data[0]['Permission']); 
+
+    //     if (!isset($find_permission['user_manage']) || $find_permission['user_manage'] != 1) {
+    //         redirect('admin');
+    //         return;
+    //     }
+
+    //     if (empty($user_id)) {
+    //         redirect('admin/agents');
+    //         return;
+    //     }
+
+    //     $userid = base64_decode($user_id);
+
+    //     if (!$userid) {
+    //         redirect('admin/all_agents');
+    //         return;
+    //     }
+
+    //     // Start transaction for safety
+    //     $this->db->trans_start();
+
+    //     // Delete from user_in_roles
+    //     $this->db->where('User_Id', $userid);
+    //     $this->db->delete('user_in_roles');
+
+    //     // Delete from users table
+    //     $this->db->where('Id', $userid);
+    //     $this->db->delete('users');
+
+    //     $this->db->trans_complete();
+
+    //     // Optional: flash message
+    //     $this->session->set_flashdata('success', 'Agent deleted successfully.');
+
+    //     redirect('admin/all_agents');
+    // }
+
 
 
   public function agent_search_transaction()

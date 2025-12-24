@@ -206,9 +206,9 @@
                       </a> 
                     </li> 
 
-                     <li class="sendmoney">
+                     <!-- <li class="sendmoney">
                     <a href="<?php echo site_url('admin/send_money');?>" class="">
-                      <!-- <i class="icon-chat_send_money"></i> -->
+                      <i class="icon-chat_send_money"></i>
                       <img src="<?php echo base_url();?>assets/images/send money.png">
                       <span> Tips To/From</span>
                     </a>     
@@ -221,19 +221,19 @@
                         <ul class="ml-menu">
                             <li class="referrals_listing">
                               <a href="<?php echo site_url('admin/referrals_listing');?>">
-                                <!-- <i class="icon-add_user_phonebook"></i> -->
+                                <i class="icon-add_user_phonebook"></i>
                                 <span>Earned Referral Points History</span> 
                               </a> 
                             </li>
                             <li class="redeem_referrals">
                               <a href="<?php echo site_url('admin/redeem_referrals_list');?>">
-                                <!-- <i class="icon-add_user_phonebook"></i> -->
+                                <i class="icon-add_user_phonebook"></i>
                                 <span>Redeemed Referral Points History</span> 
                               </a> 
                             </li>
                              <li class="add_referrals">
                               <a href="<?php echo site_url('admin/referrals_management');?>">
-                                <!-- <i class="icon-add_user_phonebook"></i> -->
+                                <i class="icon-add_user_phonebook"></i>
                                 <span>Referral Points Settings</span> 
                               </a> 
                             </li>
@@ -241,11 +241,11 @@
                     </li> 
                     <li class="qrcode">
                       <a href="<?php echo site_url('admin/all_qrcodes');?>" class="">
-                        <!-- <i class="fa fa-qrcode"></i> -->
+                        <i class="fa fa-qrcode"></i>
                         <img src="<?php echo base_url();?>assets/images/qr code.png">
                         <span> QR Codes</span> 
                       </a>      
-                    </li> 
+                    </li>  -->
                        <li class="settings">
                         <a href="#" class="menu-toggle waves-effect waves-block">
                        <!--      <img src="<?php echo base_url();?>assets/images/merchant mang.png"> -->

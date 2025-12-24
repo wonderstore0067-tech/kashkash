@@ -63,6 +63,7 @@
                                         <th class="heading_center">Address</th>
                                         <th class="heading_center">Date</th>
                                         <th class="heading_center">Status</th>
+                                        <th class="heading_center">Action</th>
                                         <!-- <th class="heading_center">Transaction No</th>
                                         <th class="heading_center">Transactions Status</th> -->
                                          <!-- <th>Details</th>   -->
