@@ -1,0 +1,66 @@
+<!-- <style type="text/css">
+ .imgsize{
+     height: 170px;
+    width: 170px;
+    }
+</style>
+ -->
+<section class="content profile-page">
+                    <div class="card box-shadow">
+                    <form id="add_the_adv" data-parsley-validate="">
+                   <div class="row body">
+                    <label class="col-md-12"><h6 class="capitalize"><i class="fa fa-cog"></i> Add New Advertisement</h6></label> <br><br><br><br>  
+
+                                <div class="col-lg-4 col-md-12">
+                                    <label class="col-md-12 update_padding"><strong>Advertisement Name</strong></label>
+                                    <div class="form-group">
+                                        <input type="text" name="Advertisement_Name" class="form-control" placeholder="Enter Advertisement Name" required="" value="" data-parsley-required-message="Advertisement Name is required">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12">
+                                    <label class="col-md-12 update_padding"><strong>Add Advertisement Image</strong></label>
+                                    <div class="form-group">
+                                        <input type="file" id="fileInput" name="advImg" class="form-control" required="" value="" hidden="">
+                                        <a href="javascript:void(0)" id="fileButton" class="btn btn-primary">Add Image</a>
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                           
+                                
+                                <div class="col-md-12">
+                                    <br>
+                                   <input type="hidden" name="userid" value="">
+                                    <button class="btn btn-primary btn-round color-purple">Save Changes</button>
+                                </div> 
+                                <div class="col-md-6 alert alert-success hideme"></div>
+                      </div>
+                  </form>
+                </div>
+</section>
+
+<script type="text/javascript">
+$(":input").bind("keyup change", function(e) {
+      $(this).parsley().validate();
+})
+
+$("#fileButton").click(function(){
+  $("#fileInput").click();
+})
+
+$("#add_the_adv").submit(function(e){
+  e.preventDefault();
+  $(this).parsley().validate();
+    if ($(this).parsley().isValid())
+    {
+      var formData = new FormData($(this)[0]);
+      saveDatas(formData,'admin/advertisement/addAdvertisement','.alert-success','')
+    }else{
+           return false;
+    }
+
+});
+ 
+ //alert(<?php echo $this->uri->segment(3);?>)
+</script>

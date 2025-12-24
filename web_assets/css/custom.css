@@ -1,0 +1,50 @@
+.sweet-alert button.cancel {
+   
+    background: #999999 !important;
+    padding: 10px 25px !important;
+    border-radius: 100px !important;
+   font-size: 14px !important;
+    
+}
+.sweet-alert button {
+   
+    background: #f6823a !important;
+    padding: 10px 25px !important;
+    border-radius: 100px !important;
+   font-size: 14px !important;
+    
+}
+.sweet-alert p {
+
+     margin-bottom: 20px !important;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    line-height: 1.4 !important;
+}
+.hideme{
+	display: none;
+}
+.inputerror{
+font-size: 0.9em !important;
+color: red !important;
+}
+
+.succmsg{
+ width: 70%;
+ margin: 0px 0px 15px 20px;
+ padding: 7px !important;
+}
+.m-l-10{
+	margin-left:10px !important;
+}
+.line-solid{
+	border-bottom: 1px solid #EFEFEF;
+}
+.c-pointer{
+	cursor: pointer !important;
+}
+.padding7{
+padding: 7px 0px 7px 10px !important
+}
+
+

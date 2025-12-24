@@ -1,0 +1,208 @@
+The following SMTP error was encountered: 110 Connection timed out<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Thu, 5 Sep 2024 09:48:41 +0000
+From: &quot;KashKash&quot; &lt;support@kashkash.net&gt;
+Return-Path: &lt;support@kashkash.net&gt;
+To: ff1233@gmail.com
+Subject: =?UTF-8?Q?Verify=20Email=20From=20KashKash?=
+Reply-To: &lt;support@kashkash.net&gt;
+User-Agent: CodeIgniter
+X-Sender: support@kashkash.net
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;66d97e79c037f@kashkash.net&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_66d97e79c038d&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_66d97e79c038d
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+KashKash
+
+Welcome to KashKash
+
+test test Thank you for registration with KashKash, Click Here To Activate
+Your Account
+
+&amp;reg; Kashkash, 2024
+
+
+--B_ALT_66d97e79c038d
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://w=
+ww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;=0A&lt;html xmlns=3D&quot;http://w=
+ww.w3.org/1999/xhtml&quot;&gt;=0A&lt;head&gt;=0A&lt;meta http-equiv=3D&quot;Content-Type&quot; content=
+=3D&quot;text/html; charset=3DUTF-8&quot; /&gt;=0A&lt;title&gt;Demystifying Email Design&lt;/titl=
+e&gt;=0A&lt;meta name=3D&quot;viewport&quot; content=3D&quot;width=3Ddevice-width, initial-scale=
+=3D1.0&quot;/&gt;=0A&lt;/head&gt;=0A&lt;body style=3D&quot;margin: 0; padding: 0;&quot;&gt;=0A=09&lt;table b=
+order=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; width=3D&quot;100%&quot;&gt;=09=0A=09=09=
+&lt;tr&gt;=0A=09=09=09&lt;td style=3D&quot;padding: 10px 0 30px 0;&quot;&gt;=0A=09=09=09=09&lt;table=
+ align=3D&quot;center&quot; border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; width=3D=
+&quot;600&quot; style=3D&quot;border: 1px solid #cccccc; border-collapse: collapse;&quot;&gt;=0A=
+=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09&lt;td align=3D&quot;center&quot; bgcolor=3D&quot;#00=
+0000&quot; style=3D&quot;padding: 40px 0 30px 0; color: #ffffff; font-size: 28px; fon=
+t-weight: bold; font-family: Arial, sans-serif;&quot;&gt;=0A=09=09=09=09=09=09&lt;!-- =
+=09&lt;img src=3D&quot;https://kashkash.net/assets/images/dapplepay_icon.png&quot; alt=
+=3D&quot;Certs on the Run&quot; width=3D&quot;300&quot; height=3D&quot;150&quot; style=3D&quot;display: block;=
+&quot; /&gt; --&gt;=0A=09=09=09=09=09=09KashKash=0A=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=
+=09=09&lt;/tr&gt;=09=09=09=09=09=0A=09=09=09=09=09&lt;!-- MID --&gt;=0A=09=09=09=09=09&lt;=
+tr&gt;=0A=09=09=09=09=09=09&lt;td bgcolor=3D&quot;#ffffff&quot; style=3D&quot;padding: 40px 30px=
+ 40px 30px;&quot;&gt;=0A=09=09=09=09=09=09=09&lt;table border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; =
+cellspacing=3D&quot;0&quot; width=3D&quot;100%&quot;&gt;=0A=09=09=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=
+=09=09=09=09=09=09=09&lt;td style=3D&quot;color: #153643; font-family: Arial, sans-=
+serif; font-size: 24px;&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;b&gt;Welcome to Kas=
+hKash&lt;/b&gt;=0A=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;/tr=
+&gt;=0A=09=09=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09&lt;td style=3D&quot;=
+padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; fon=
+t-size: 16px; line-height: 20px;&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;p&gt;test =
+test&lt;/p&gt; &lt;p&gt;Thank you for registration with KashKash, &lt;a href=3D&quot;https://ka=
+shkash.net/webservices/users/verify_user?userid=3DK7MysjCyBgA=3D&amp;role=3DK7M=
+yMjW1BgA=3D&quot;&gt; Click Here &lt;/a&gt; To Activate Your Account&lt;/p&gt;=09=09=09=09=09=
+=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=09=09=09=09=09=09=09=
+=09&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09&lt;td&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;=
+table border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; width=3D&quot;100%&quot;&gt;=0A=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&lt;/table&gt;=0A=
+=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=09=09=
+=09=09=09=09=09&lt;/table&gt;=0A=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09&lt;/tr&gt;=0A=
+=09=09=09=09=09&lt;!-- MID --&gt;=0A=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09&lt;td b=
+gcolor=3D&quot;#D09C53&quot; style=3D&quot;padding: 30px 30px 30px 30px;&quot;&gt;=0A=09=09=09=09=
+=09=09=09&lt;table border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; width=3D&quot;1=
+00%&quot;&gt;=0A=09=09=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09&lt;td style=
+=3D&quot;color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;&quot; width=
+=3D&quot;75%&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&amp;reg; Kashkash, 2024&lt;br/&gt;=0A=09=
+=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;!-- =09&lt;td align=
+=3D&quot;right&quot; width=3D&quot;25%&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;table border=3D&quot;=
+0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=
+&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09&lt;td style=3D&quot;font-family: Arial,=
+ sans-serif; font-size: 12px; font-weight: bold;&quot;&gt;=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09&lt;a href=3D&quot;http://www.twitter.com/&quot; style=3D&quot;color: #ffff=
+ff;&quot;&gt;=0A&lt;img src=3D&quot;https://kashkash.net//assets/images/emailtw.gif&quot; alt=3D=
+&quot;Twitter&quot; width=3D&quot;38&quot; height=3D&quot;38&quot; style=3D&quot;display: block;&quot; border=3D&quot;0&quot;=
+ /&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09=09&lt;/a&gt;=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09&lt;td style=3D&quot;fon=
+t-size: 0; line-height: 0;&quot; width=3D&quot;20&quot;&gt;&amp;nbsp;&lt;/td&gt;=0A=09=09=09=09=09=09=
+=09=09=09=09=09=09&lt;td style=3D&quot;font-family: Arial, sans-serif; font-size: 1=
+2px; font-weight: bold;&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09=09&lt;a href=
+=3D&quot;http://www.fb.com/&quot; style=3D&quot;color: #ffffff;&quot;&gt;=0A&lt;img src=3D&quot;https://ka=
+shkash.net//assets/images/emailfb.gif&quot; alt=3D&quot;Facebook&quot; width=3D&quot;38&quot; height=
+=3D&quot;38&quot; style=3D&quot;display: block;&quot; border=3D&quot;0&quot; /&gt;=0A=09=09=09=09=09=09=09=
+=09=09=09=09=09=09&lt;/a&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=
+=09=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;/table&gt;=
+=0A=09=09=09=09=09=09=09=09=09&lt;/td&gt; --&gt;=0A=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=
+=09=09=09=09=09=09=09&lt;/table&gt;=0A=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09&lt;/=
+tr&gt;=0A=09=09=09=09&lt;/table&gt;=0A=09=09=09&lt;/td&gt;=0A=09=09&lt;/tr&gt;=0A=09&lt;/table&gt;=0A&lt;=
+/body&gt;=0A&lt;/html&gt;
+
+--B_ALT_66d97e79c038d--</pre>220 osplsmtpa02-16.prod.phx3.secureserver.net :SMTPAUTH: Wgi7vvMEj5T35 : ESMTP server osplsmtpa02-16.prod.phx3.secureserver.net ready
+<br /><pre>hello: 250-osplsmtpa02-16.prod.phx3.secureserver.net hello [74.50.66.74], secureserver.net
+250-HELP
+250-AUTH LOGIN PLAIN
+250-SIZE 30000000
+250-PIPELINING
+250-8BITMIME
+250 OK
+</pre>Failed to authenticate password. Error: 535 Authentication Failed for support@kashkash.net
+<br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Fri, 19 Dec 2025 21:04:23 +0100
+From: &quot;KashKash&quot; &lt;support@kashkash.net&gt;
+Return-Path: &lt;support@kashkash.net&gt;
+To: wonderstore0067@gmail.com
+Subject: =?UTF-8?Q?Verify=20mobile=20OTP=20Code?=
+Reply-To: &lt;support@kashkash.net&gt;
+User-Agent: CodeIgniter
+X-Sender: support@kashkash.net
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6945afc703814@kashkash.net&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_6945afc703820&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_6945afc703820
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+KashKash
+
+Registration
+
+Your OTP is 5387
+
+&amp;reg; Kashkash, 2025
+
+
+--B_ALT_6945afc703820
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=0A&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://w=
+ww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;=0A&lt;html xmlns=3D&quot;http://w=
+ww.w3.org/1999/xhtml&quot;&gt;=0A&lt;head&gt;=0A&lt;meta http-equiv=3D&quot;Content-Type&quot; content=
+=3D&quot;text/html; charset=3DUTF-8&quot; /&gt;=0A&lt;title&gt;Demystifying Email Design&lt;/titl=
+e&gt;=0A&lt;meta name=3D&quot;viewport&quot; content=3D&quot;width=3Ddevice-width, initial-scale=
+=3D1.0&quot;/&gt;=0A&lt;/head&gt;=0A&lt;body style=3D&quot;margin: 0; padding: 0;&quot;&gt;=0A=09&lt;table b=
+order=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; width=3D&quot;100%&quot;&gt;=09=0A=09=09=
+&lt;tr&gt;=0A=09=09=09&lt;td style=3D&quot;padding: 10px 0 30px 0;&quot;&gt;=0A=09=09=09=09&lt;table=
+ align=3D&quot;center&quot; border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; width=3D=
+&quot;600&quot; style=3D&quot;border: 1px solid #cccccc; border-collapse: collapse;&quot;&gt;=0A=
+=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09&lt;td align=3D&quot;center&quot; bgcolor=3D&quot;#00=
+0000&quot; style=3D&quot;padding: 40px 0 30px 0; color: #ffffff; font-size: 28px; fon=
+t-weight: bold; font-family: Arial, sans-serif;&quot;&gt;=0A=09=09=09=09=09=09&lt;!-- =
+=09&lt;img src=3D&quot;http://localhost/assets/images/dapplepay_icon.png&quot; alt=3D&quot;Ce=
+rts on the Run&quot; width=3D&quot;300&quot; height=3D&quot;150&quot; style=3D&quot;display: block;&quot; /&gt; -=
+-&gt;=0A=09=09=09=09=09=09KashKash=0A=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=
+&lt;/tr&gt;=09=09=09=09=09=0A=09=09=09=09=09&lt;!-- MID --&gt;=0A=09=09=09=09=09&lt;tr&gt;=0A=
+=09=09=09=09=09=09&lt;td bgcolor=3D&quot;#ffffff&quot; style=3D&quot;padding: 40px 30px 40px =
+30px;&quot;&gt;=0A=09=09=09=09=09=09=09&lt;table border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellsp=
+acing=3D&quot;0&quot; width=3D&quot;100%&quot;&gt;=0A=09=09=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=
+=09=09=09=09=09&lt;td style=3D&quot;color: #153643; font-family: Arial, sans-serif;=
+ font-size: 24px;&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;b&gt;Registration&lt;/b&gt;=0A=
+=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=09=09=
+=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09&lt;td style=3D&quot;padding: 2=
+0px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16=
+px; line-height: 20px;&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;p&gt;Your OTP is 538=
+7&lt;/p&gt;=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=09=
+=09=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09&lt;td&gt;=0A=09=09=09=09=
+=09=09=09=09=09=09&lt;table border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; w=
+idth=3D&quot;100%&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09&lt;/table&gt;=0A=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=
+=09&lt;/tr&gt;=0A=09=09=09=09=09=09=09&lt;/table&gt;=0A=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=
+=09=09=09&lt;/tr&gt;=0A=09=09=09=09=09&lt;!-- MID --&gt;=0A=09=09=09=09=09&lt;tr&gt;=0A=09=09=
+=09=09=09=09&lt;td bgcolor=3D&quot;#D09C53&quot; style=3D&quot;padding: 30px 30px 30px 30px;&quot;=
+&gt;=0A=09=09=09=09=09=09=09&lt;table border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=
+=3D&quot;0&quot; width=3D&quot;100%&quot;&gt;=0A=09=09=09=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09=
+=09=09=09&lt;td style=3D&quot;color: #ffffff; font-family: Arial, sans-serif; font-=
+size: 14px;&quot; width=3D&quot;75%&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&amp;reg; Kashkash,=
+ 2025&lt;br/&gt;=0A=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09&lt;!-=
+- =09&lt;td align=3D&quot;right&quot; width=3D&quot;25%&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;ta=
+ble border=3D&quot;0&quot; cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot;&gt;=0A=09=09=09=09=09=09=
+=09=09=09=09=09&lt;tr&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09&lt;td style=3D&quot;font=
+-family: Arial, sans-serif; font-size: 12px; font-weight: bold;&quot;&gt;=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09=09&lt;a href=3D&quot;http://www.twitter.com/&quot; style=
+=3D&quot;color: #ffffff;&quot;&gt;=0A&lt;img src=3D&quot;http://localhost//assets/images/emailtw=
+.gif&quot; alt=3D&quot;Twitter&quot; width=3D&quot;38&quot; height=3D&quot;38&quot; style=3D&quot;display: block;&quot; =
+border=3D&quot;0&quot; /&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09=09&lt;/a&gt;=0A=09=09=09=
+=09=09=09=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09&lt;td =
+style=3D&quot;font-size: 0; line-height: 0;&quot; width=3D&quot;20&quot;&gt;&amp;nbsp;&lt;/td&gt;=0A=09=09=
+=09=09=09=09=09=09=09=09=09=09&lt;td style=3D&quot;font-family: Arial, sans-serif; =
+font-size: 12px; font-weight: bold;&quot;&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=
+=09=09&lt;a href=3D&quot;http://www.fb.com/&quot; style=3D&quot;color: #ffffff;&quot;&gt;=0A&lt;img src=
+=3D&quot;http://localhost//assets/images/emailfb.gif&quot; alt=3D&quot;Facebook&quot; width=3D&quot;=
+38&quot; height=3D&quot;38&quot; style=3D&quot;display: block;&quot; border=3D&quot;0&quot; /&gt;=0A=09=09=09=09=
+=09=09=09=09=09=09=09=09=09&lt;/a&gt;=0A=09=09=09=09=09=09=09=09=09=09=09=09&lt;/td&gt;=
+=0A=09=09=09=09=09=09=09=09=09=09=09&lt;/tr&gt;=0A=09=09=09=09=09=09=09=09=09=09&lt;=
+/table&gt;=0A=09=09=09=09=09=09=09=09=09&lt;/td&gt; --&gt;=0A=09=09=09=09=09=09=09=09&lt;/=
+tr&gt;=0A=09=09=09=09=09=09=09&lt;/table&gt;=0A=09=09=09=09=09=09&lt;/td&gt;=0A=09=09=09=
+=09=09&lt;/tr&gt;=0A=09=09=09=09&lt;/table&gt;=0A=09=09=09&lt;/td&gt;=0A=09=09&lt;/tr&gt;=0A=09&lt;/ta=
+ble&gt;=0A&lt;/body&gt;=0A&lt;/html&gt;
+
+--B_ALT_6945afc703820--</pre>

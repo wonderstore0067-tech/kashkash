@@ -1,0 +1,41 @@
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Dompdf.php on line 610
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Dompdf.php on line 631
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $dompdf follows optional parameter $paper in /home/qjho4kbuu00r/public_html/application/dompdf/src/Adapter/CPDF.php on line 182
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $dompdf follows optional parameter $paper in /home/qjho4kbuu00r/public_html/application/dompdf/src/Canvas.php on line 27
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 467
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 474
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 481
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 488
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $img follows optional parameter $w in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 4723
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $data follows optional parameter $w in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 5066
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $imageWidth follows optional parameter $w in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 5410
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $imageHeight follows optional parameter $w in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 5410
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $imgname follows optional parameter $w in /home/qjho4kbuu00r/public_html/application/dompdf/lib/Cpdf.php on line 5410
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Css/Stylesheet.php on line 1360
+[16-Jun-2023 12:58:39 UTC] PHP Deprecated:  Required parameter $pattern_name follows optional parameter $corner_style in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/AbstractRenderer.php on line 827
+[16-Jun-2023 12:58:39 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/Text.php on line 140
+[16-Jun-2023 13:20:35 UTC] PHP Deprecated:  Required parameter $pattern_name follows optional parameter $corner_style in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/AbstractRenderer.php on line 827
+[16-Jun-2023 13:20:35 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/Text.php on line 140
+[26-Sep-2023 05:08:58 UTC] PHP Deprecated:  Required parameter $pattern_name follows optional parameter $corner_style in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/AbstractRenderer.php on line 827
+[26-Sep-2023 05:08:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/Text.php on line 140
+[28-Sep-2023 05:58:37 UTC] PHP Deprecated:  Required parameter $pattern_name follows optional parameter $corner_style in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/AbstractRenderer.php on line 827
+[28-Sep-2023 05:58:37 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/qjho4kbuu00r/public_html/application/dompdf/src/Renderer/Text.php on line 140
+[27-Aug-2024 16:13:48 UTC] PHP Fatal error:  Cannot redeclare getOS() (previously declared in /home/qjho4kbuu00r/public_html/application/helpers/common_helper.php:488) in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 179
+[28-Aug-2024 13:38:57 UTC] PHP Fatal error:  Cannot redeclare getOS() (previously declared in /home/qjho4kbuu00r/public_html/application/helpers/common_helper.php:488) in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 153
+[29-Aug-2024 08:33:16 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /home/qjho4kbuu00r/public_html/application/modules/webservices/controllers/Users.php on line 16
+[29-Aug-2024 08:43:23 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /home/qjho4kbuu00r/public_html/application/modules/webservices/controllers/Users.php on line 16
+[29-Aug-2024 08:46:09 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /home/qjho4kbuu00r/public_html/application/modules/webservices/controllers/Users.php on line 16
+[29-Aug-2024 08:47:22 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /home/qjho4kbuu00r/public_html/application/modules/webservices/controllers/Users.php on line 16
+[29-Aug-2024 08:49:38 UTC] PHP Warning:  The use statement with non-compound name 'Email' has no effect in /home/qjho4kbuu00r/public_html/application/modules/webservices/controllers/Users.php on line 16
+[29-Aug-2024 10:08:00 UTC] PHP Deprecated:  Required parameter $cc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:08:00 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:08:47 UTC] PHP Deprecated:  Required parameter $cc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:08:47 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:16:51 UTC] PHP Deprecated:  Required parameter $cc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:16:51 UTC] PHP Deprecated:  Required parameter $cc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:16:51 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:16:51 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:40:38 UTC] PHP Deprecated:  Required parameter $cc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:40:38 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 10:53:58 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92
+[29-Aug-2024 11:22:09 UTC] PHP Deprecated:  Required parameter $bcc follows optional parameter $from in /home/qjho4kbuu00r/public_html/application/libraries/Sendmail.php on line 92

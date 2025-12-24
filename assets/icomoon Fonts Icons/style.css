@@ -1,0 +1,422 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?hiavi1');
+  src:  url('fonts/icomoon.eot?hiavi1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hiavi1') format('truetype'),
+    url('fonts/icomoon.woff?hiavi1') format('woff'),
+    url('fonts/icomoon.svg?hiavi1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-x7_icon:before {
+  content: "\e900";
+  color: #7a7a7a;
+}
+.icon-about_the_app:before {
+  content: "\e901";
+  color: #7a7a7a;
+}
+.icon-account_bottom_nav_icon_inactive:before {
+  content: "\e902";
+  color: #7a7a7a;
+}
+.icon-add_id_number:before {
+  content: "\e903";
+  color: #7a7a7a;
+}
+.icon-add_money:before {
+  content: "\e904";
+  color: #2a2b2d;
+}
+.icon-add_money-h:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-add_new_card:before {
+  content: "\e905";
+  color: #7a7a7a;
+}
+.icon-add_profile_image:before {
+  content: "\e906";
+  color: #7a7a7a;
+}
+.icon-add_user_phonebook:before {
+  content: "\e907";
+  color: #7a7a7a;
+}
+.icon-add_user:before {
+  content: "\e908";
+  color: #7a7a7a;
+}
+.icon-air_tickets:before {
+  content: "\e909";
+  color: #7a7a7a;
+}
+.icon-attachment:before {
+  content: "\e90a";
+  color: #7a7a7a;
+}
+.icon-back_icon:before {
+  content: "\e90b";
+  color: #7a7a7a;
+}
+.icon-borehole:before {
+  content: "\e90c";
+  color: #7a7a7a;
+}
+.icon-bottom_arrow:before {
+  content: "\e90d";
+  color: #7a7a7a;
+}
+.icon-bus:before {
+  content: "\e90e";
+  color: #7a7a7a;
+}
+.icon-business:before {
+  content: "\e90f";
+  color: #7a7a7a;
+}
+.icon-call_icon_white:before {
+  content: "\e910";
+  color: #7a7a7a;
+}
+.icon-cashout:before {
+  content: "\e911";
+  color: #2a2b2d;
+}
+.icon-cashout-h:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-chat_add_image:before {
+  content: "\e912";
+  color: #7a7a7a;
+}
+.icon-chat_attachment_icon:before {
+  content: "\e913";
+  color: #7a7a7a;
+}
+.icon-chat_location_icon:before {
+  content: "\e914";
+  color: #7a7a7a;
+}
+.icon-chat_microphone_icon:before {
+  content: "\e915";
+  color: #7a7a7a;
+}
+.icon-chat_recived_money .path1:before {
+  content: "\e916";
+  color: rgb(122, 122, 122);
+}
+.icon-chat_recived_money .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(74, 74, 74);
+}
+.icon-chat_recived_money .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(122, 122, 122);
+}
+.icon-chat_send_money:before {
+  content: "\e919";
+  color: #7a7a7a;
+}
+.icon-check_box-copy:before {
+  content: "\e91a";
+  color: #7a7a7a;
+}
+.icon-check_box_inactive:before {
+  content: "\e91b";
+  color: #7a7a7a;
+}
+.icon-close_inbox_screen_icon:before {
+  content: "\e91c";
+  color: #7a7a7a;
+}
+.icon-contact_us:before {
+  content: "\e91d";
+  color: #7a7a7a;
+}
+.icon-country:before {
+  content: "\e91e";
+  color: #7a7a7a;
+}
+.icon-date_icon:before {
+  content: "\e91f";
+  color: #7a7a7a;
+}
+.icon-edit_white:before {
+  content: "\e920";
+  color: #7a7a7a;
+}
+.icon-electricity:before {
+  content: "\e921";
+  color: #7a7a7a;
+}
+.icon-forex_arrow_down:before {
+  content: "\e922";
+  color: #7a7a7a;
+}
+.icon-forex_arrow_up:before {
+  content: "\e923";
+  color: #7a7a7a;
+}
+.icon-forex:before {
+  content: "\e924";
+  color: #7a7a7a;
+}
+.icon-forgot_password:before {
+  content: "\e925";
+  color: #7a7a7a;
+}
+.icon-fuel:before {
+  content: "\e926";
+  color: #7a7a7a;
+}
+.icon-home_bottom_nav_icon_inactive:before {
+  content: "\e927";
+  color: #7a7a7a;
+}
+.icon-hospital:before {
+  content: "\e928";
+  color: #7a7a7a;
+}
+.icon-hotel:before {
+  content: "\e929";
+  color: #7a7a7a;
+}
+.icon-humburger_profile_arrow:before {
+  content: "\e92a";
+  color: #7a7a7a;
+}
+.icon-inbox_bottom_nav_icon_inactive:before {
+  content: "\e92b";
+  color: #7a7a7a;
+}
+.icon-insurance:before {
+  content: "\e92c";
+  color: #7a7a7a;
+}
+.icon-internet:before {
+  content: "\e92d";
+  color: #7a7a7a;
+}
+.icon-invite_friends:before {
+  content: "\e92e";
+  color: #7a7a7a;
+}
+.icon-kra_pin:before {
+  content: "\e92f";
+  color: #7a7a7a;
+}
+.icon-mail_icon:before {
+  content: "\e930";
+  color: #7a7a7a;
+}
+.icon-mobile:before {
+  content: "\e931";
+  color: #7a7a7a;
+}
+.icon-more:before {
+  content: "\e932";
+  color: #7a7a7a;
+}
+.icon-movie_tickets:before {
+  content: "\e933";
+  color: #7a7a7a;
+}
+.icon-my_points:before {
+  content: "\e934";
+  color: #7a7a7a;
+}
+.icon-my_transactions:before {
+  content: "\e935";
+  color: #7a7a7a;
+}
+.icon-notification_active:before {
+  content: "\e936";
+  color: #7a7a7a;
+}
+.icon-notification_dark:before {
+  content: "\e937";
+  color: #7a7a7a;
+}
+.icon-notification_read:before {
+  content: "\e938";
+  color: #7a7a7a;
+}
+.icon-notification_whith_greendot:before {
+  content: "\e939";
+  color: #7a7a7a;
+}
+.icon-password:before {
+  content: "\e93a";
+  color: #7a7a7a;
+}
+.icon-pay_bill:before {
+  content: "\e93b";
+  color: #7a7a7a;
+}
+.icon-payment_request:before {
+  content: "\e93c";
+  color: #7a7a7a;
+}
+.icon-popup_radio_btn_active .path1:before {
+  content: "\e93d";
+  color: rgb(122, 122, 122);
+}
+.icon-popup_radio_btn_active .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(122, 122, 122);
+}
+.icon-popup_radio_btn_active .path3:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-popup_radio_btn_inactive:before {
+  content: "\e940";
+  color: #7a7a7a;
+}
+.icon-privacy_policy:before {
+  content: "\e941";
+  color: #7a7a7a;
+}
+.icon-registration-number:before {
+  content: "\e942";
+  color: #7a7a7a;
+}
+.icon-right_arrow:before {
+  content: "\e943";
+  color: #7a7a7a;
+}
+.icon-scan_pay:before {
+  content: "\e944";
+  color: #7a7a7a;
+}
+.icon-school_fees:before {
+  content: "\e945";
+  color: #7a7a7a;
+}
+.icon-search:before {
+  content: "\e946";
+  color: #7a7a7a;
+}
+.icon-send_icon:before {
+  content: "\e947";
+  color: #7a7a7a;
+}
+.icon-set_transaction_pin:before {
+  content: "\e948";
+  color: #7a7a7a;
+}
+.icon-split_pay:before {
+  content: "\e949";
+  color: #7a7a7a;
+}
+.icon-success_icon_white-copy:before {
+  content: "\e94a";
+  color: #7a7a7a;
+}
+.icon-success_icon_white:before {
+  content: "\e94b";
+  color: #7a7a7a;
+}
+.icon-tab_more_icon:before {
+  content: "\e94c";
+  color: #7a7a7a;
+}
+.icon-taxi:before {
+  content: "\e94d";
+  color: #7a7a7a;
+}
+.icon-terms_conditions:before {
+  content: "\e94e";
+  color: #7a7a7a;
+}
+.icon-text_icon:before {
+  content: "\e94f";
+  color: #7a7a7a;
+}
+.icon-toll_gates:before {
+  content: "\e950";
+  color: #7a7a7a;
+}
+.icon-traffic_fines:before {
+  content: "\e951";
+  color: #7a7a7a;
+}
+.icon-transaction_pin_screen_icon-copy:before {
+  content: "\e952";
+  color: #7a7a7a;
+}
+.icon-transaction_pin_screen_icon:before {
+  content: "\e953";
+  color: #7a7a7a;
+}
+.icon-transactions_filter_icon:before {
+  content: "\e954";
+  color: #7a7a7a;
+}
+.icon-travel_arrow_icon:before {
+  content: "\e955";
+  color: #7a7a7a;
+}
+.icon-tv:before {
+  content: "\e956";
+  color: #7a7a7a;
+}
+.icon-unsuccess_icon_white-copy:before {
+  content: "\e957";
+  color: #7a7a7a;
+}
+.icon-unsuccess_icon_white:before {
+  content: "\e958";
+  color: #7a7a7a;
+}
+.icon-upload_id_proof:before {
+  content: "\e959";
+  color: #7a7a7a;
+}
+.icon-upload:before {
+  content: "\e95a";
+  color: #7a7a7a;
+}
+.icon-user:before {
+  content: "\e95b";
+  color: #7a7a7a;
+}
+.icon-video_call_icon_white:before {
+  content: "\e95c";
+  color: #7a7a7a;
+}
+.icon-wallet_bottom_nav_icon_inactive:before {
+  content: "\e95d";
+  color: #7a7a7a;
+}
+.icon-wallet_icon:before {
+  content: "\e95e";
+  color: #7a7a7a;
+}
+.icon-water:before {
+  content: "\e95f";
+  color: #7a7a7a;
+}

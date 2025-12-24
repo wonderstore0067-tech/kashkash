@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.receipt {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+/* .add-user{
+  text-align: center;
+} */
+.top-btn{
+  float: right;
+}
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-right: inherit;
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.records {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-list{
+  text-align: center;
+}
+.records .row {
+  max-width: 590px;
+  margin: 0 auto;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.user-btn{
+  text-align: left;
+}
+
+.transactions {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.config {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+nav{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.header{
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+
+.header > a{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+
+.active{
+  background-color: #ececec;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.column1{
+  width: 100px !important;
+}
+
+.column3{
+  width: 150px !important;
+}
